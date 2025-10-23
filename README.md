@@ -51,19 +51,6 @@ python train_license_plate.py \
 
 ## 4. 노트북
 
-- `license_plate_demo.ipynb`: 기본 추론 예제
-- `license_plate_filtered_demo.ipynb`: NMS/박스 필터링 적용 추론 예제
-- `model_trainin.ipynb`: 노트북 환경에서 바로 학습을 재현하는 예제
-- `ocr_yolo.ipynb`: YOLO 탐지 + CRNN OCR 파이프라인을 통해 번호판 문자열을 추론하는 예제
+- `license_plate_demo copy.ipynb' 번호판 읽어주는예제
 
 노트북 실행 시에는 `venv`를 커널로 등록하거나, 1번 셀에서 제공하는 경로 설정 코드를 실행하여 패키지를 불러오세요.
-
-## 5. 모델 평가
-
-학습이 끝난 뒤 `ultralytics`의 검증 커맨드를 활용하면 검증 지표를 확인할 수 있습니다.
-
-```bash
-venv/bin/yolo detect val \
-    model=runs/license_plate_yolov8n/weights/best.pt \
-    data="../Korea Car License Plate/data.yaml"
-```
