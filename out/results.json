@@ -1,0 +1,18 @@
+[
+  {
+    "image": "samples/example.jpg",
+    "bbox": [
+      484,
+      1753,
+      2204,
+      2598
+    ],
+    "conf": 0.5904423594474792,
+    "text": "01가-12443787211나31100113가사아마201나01",
+    "score": 0,
+    "raw": "0     1   가\n -\n  12\n\n  4  4\n 3\n      78\n   7  21  1 나\n 3 1 10\n0\n1 1\n   3\n     가 사아 마\n    2  01나01",
+    "crop_path": "out/crops/example_b0.png",
+    "flat_path": "out/flats/example_b0_flat.png",
+    "bin_best_path": ""
+  }
+]

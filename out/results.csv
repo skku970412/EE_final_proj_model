@@ -1,0 +1,15 @@
+image,bbox_x1,bbox_y1,bbox_x2,bbox_y2,conf,text,score,raw,crop_path,flat_path,bin_best_path
+samples/example.jpg,484,1753,2204,2598,0.5904423594474792,01가-12443787211나31100113가사아마201나01,0,"0     1   가
+ -
+  12
+
+  4  4
+ 3
+      78
+   7  21  1 나
+ 3 1 10
+0
+1 1
+   3
+     가 사아 마
+    2  01나01",out/crops/example_b0.png,out/flats/example_b0_flat.png,
