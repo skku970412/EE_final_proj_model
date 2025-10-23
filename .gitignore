@@ -1,0 +1,37 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment for this project
+venv/
+
+# Ultralytics outputs
+runs/
+
+# Model weights and exported artifacts
+*.pt
+*.onnx
+*.tflite
+*.engine
+*.trt
+*.ncnn
+*.mlmodel
+*.safetensors
+*.bin
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and caches
+*.log
+*.cache
+
+# IDE / OS metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment files
+.env
+*.env

@@ -1,0 +1,6 @@
+ultralytics==8.3.220
+Pillow>=10.0.0
+ipykernel>=6.0.0
+
+torch>=2.0.0
+opencv-python>=4.8.0
